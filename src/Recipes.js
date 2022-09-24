@@ -10,7 +10,7 @@ function Recipes() {
     var data1=location.state.data
     console.log(location.state.data)
     console.log(data1)
-    if(data1.length!=0){
+    if(data1.length!==0){
       console.log(data1.length)
   return (
     <div className='mainn'>
@@ -20,7 +20,7 @@ function Recipes() {
             <div className='cont'>
               <div className='recipecard'>
                 <div className='image'>
-              <img src={dat.recipe.image}></img>
+              <img src={dat.recipe.image} alt='Loading Failed'></img>
               </div>
               <div>
                 <div className='recipemiddle'>
